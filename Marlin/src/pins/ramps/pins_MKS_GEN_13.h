@@ -41,6 +41,7 @@
 //
 // Power outputs EFBF or EFBE
 #define MOSFET_D_PIN                           7
+#define FAN_PIN                                9
 
 //
 // PSU / SERVO
@@ -53,6 +54,8 @@
 #endif
 
 #include "pins_RAMPS.h"
+
+#define HEATER_1_PIN                           MOSFET_D_PIN
 
 #undef EXP2_03_PIN
 #define EXP2_03_PIN                           -1  // RESET
