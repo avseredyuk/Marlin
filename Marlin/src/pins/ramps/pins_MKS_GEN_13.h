@@ -51,8 +51,8 @@
 // If PSU_CONTROL is specified, always hijack Servo 3
 //
 #if ENABLED(PSU_CONTROL)
-  #define SERVO3_PIN                          -1
-  #define PS_ON_PIN                            4
+  // #define SERVO3_PIN                          -1
+  #define PS_ON_PIN                            49
 #endif
 
 #include "pins_RAMPS.h"
