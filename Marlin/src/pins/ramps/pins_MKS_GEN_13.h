@@ -52,7 +52,7 @@
 //
 #if ENABLED(PSU_CONTROL)
   // #define SERVO3_PIN                          -1
-  #define PS_ON_PIN                            49
+  #define PS_ON_PIN                            44
 #endif
 
 #include "pins_RAMPS.h"
@@ -128,7 +128,7 @@
   // VIKI2 4-wire lead
   //
   #define KILL_PIN                   EXP1_05_PIN  // BTN      blue
-  #define BEEPER_PIN                 EXP1_06_PIN  // BUZZER   green
+  #define BEEPER_PIN                 -1 //EXP1_06_PIN  // BUZZER   green
   #define STAT_LED_RED_PIN           EXP1_04_PIN  // RED-LED  yellow
   #define STAT_LED_BLUE_PIN          EXP1_03_PIN  // BLUE-LED white
 #endif
